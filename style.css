@@ -1,0 +1,79 @@
+.header {
+    background-color:#563d76 ;
+    padding-bottom: 10px;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+.main{
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+li {
+    display: inline-block;
+    width: auto;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+li a {
+    color: #cbbde2;
+}
+#logo {
+    
+    font-size: 2rem;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.box li {
+    display: relative;
+    z-index: 5;
+    margin: 200px 50px;
+    transform: rotate(-35deg) skew(10deg); 
+}
+ul li span 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 260px;
+    margin: 200px 500px;
+    display: flex;
+    box-shadow: -5px 5px 5px rgba(29, 29, 70, 0.1);
+    background: #6f42c1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 220px !important;
+    border-radius: 15%;
+    text-align: center;
+    box-sizing:
+    
+}
+ul li span:nth-child(3)
+{
+    transform: translate(100px,-100px);
+    opacity: 1;
+    background-color: rgba(90, 5, 146);
+}
+ul li span:nth-child(2)
+{
+    transform: translate(50px,-50px);
+    opacity: 1;
+    background-color: rgb(69, 5, 112);
+}
+ul li span:nth-child(1)
+{
+    transform: translate(0px,-0px);
+    opacity: 1;
+    background-color: rgb(63, 5, 102);
+}
