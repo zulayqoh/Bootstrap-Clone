@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+}
+
+/*....................................................header......................................................*/
+.header 
+{
+    background-color:#563d76;
+    height: 60px;
+    padding: 0px 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.logo
+{
+    font-size: 25px;
+    border: 1px solid #cbbde2;
+    border-radius: 10%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+ul
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+li, li a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: #cbbde2;
+    padding: 0px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+li, li a:hover, li a:active
+{
+    color: white;
+}
+.link
+{
+    padding: 0px 0px 0px 550px ;
+}
+
+/*..............................................main.......................................................*/
+.main
+{
+    z-index: 2;
+}
+.start
+{
+    margin: 80px;
+    width: 50%;
+}
+.box
+{
+    height: 300;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+.boxes
+{
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 0px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.boxes li
+{
+    z-index: 3;
+    position: relative;
+    list-style: none;
+    width: 280px;
+    height: 260px;
+    background-color: #3f2666;
+    transform: rotate(-30deg) skew(25deg);
+    font-size: 170px !important;
+    text-align: center;
+    border-radius: 17%;
+}
+.boxes li span
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 17%;
+    box-shadow: -5px 5px 5px rgba(29, 29, 70, 0.3);
+}
+
+/*....................................................3boxes......................................................*/
+
+ul li span:nth-child(3)
+{
+    transform: translate(100px,-100px);
+    opacity: 1;
+    background-color:#7344b8;
+}
+ul li span:nth-child(2)
+{
+    transform: translate(50px,-50px);
+    opacity: 1;
+    background-color:#542b92;
+}
+ul li span:nth-child(1)
+{
+    transform: translate(0px,-0px);
+    opacity: 1;
+    background-color:#3f2666;
+}
+/*....................................................main......................................................*/
+
+h1 
+{
+    color: #7952b3;
+    text-align: left;
+    font-size: 60px;
+    margin: 0px 0px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p 
+{
+    width: 500px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 16px;
+    color: #6c757d;
+    text-align: left;
+}
+.button3, .button2 
+{
+    margin: 15px 10px 20px 0px;
+    height: 60px;
+    width: 250px;
+    font-weight: 520;
+    background: transparent;
+    border-radius: 0.3em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1
+{
+    font-weight: 550;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    color: #ffe484;
+    background: transparent;
+    border-radius: 0.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #ffe484;
+}
+.button1:hover 
+{
+    background: #ffe484;
+    color: #563d76;
+}
+.button2
+{
+    color:#7952b3;
+    border: solid 1px #7952b3;
+}
+.button2:hover 
+{
+    background:  #7952b3;
+    color: #fff;
+}
+.button3
+{
+    color:#6c757d;
+    border: solid 1px #6c757d;
+}
+.button3:hover 
+{
+    background: #6c757d;
+    color: #fff;
+}
+
+.octopus 
+{
+    background-color: rgba(211, 211, 211, 0.5);
+    height: 140px;
+    width: 360px;
+    margin-left: 80px;
+    border-radius: 0.3em;
+    position: relative;
+    bottom: 50px;
+}
+img 
+{
+    height: 100px;
+    width: auto;
+    padding: 20px;
+}
+.pnote
+{
+    color:  rgba(56, 56, 56, 0.7);
+}
+.pnote1
+{
+    color: rgb(32, 32, 32);
+}
+.pnote, .pnote1
+{
+    width: 190px;
+    display: flex;
+    font-size: 14px;
+    font-weight: normal;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: transparent;
+}
+div .pp
+{
+    display: flex;
+    flex-basis: 380px;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    bottom: 140px;
+    margin-top: 18px;
+
+}
+.container
+{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.2);
+    height: 400px;
+}
+.cont1, .cont2, .cont3
+{
+    border: #fff solid 1px;
+    padding: 20px;
+}
+.contp
+{
+    font-size: 16px;
+    width: 407.5px;
+}
+.footer
+{
+    background-color: rgba(211, 211, 211, 0.2);
+    height: 150px;
+}
+.footerul
+{
+    color: black;
+    font: 16px;
+    display: inline-block;
+    position: relative;
+}
+.p
+{
+    margin-top: 70px;
+    font-size: 16px;
+}
