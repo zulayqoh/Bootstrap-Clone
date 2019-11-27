@@ -10,24 +10,29 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
+        <div class="row nav align-items-center heading">
+            <div class="col-6 heading-2">
+                <nav class="nav align-items-center my-nav">
+                    <a><span class="nav-link logo"  href="#">B</span></a>
+                    <a class="nav-link active heading-item" href="#">Home</a>
+                    <a class="nav-link heading-item" href="#">Documentation</a>
+                    <a class="nav-link heading-item" href="#">Example</a>
+                    <a class="nav-link heading-item" href="#">Themes</a>
+                    <a class="nav-link heading-item" href="#">Expo</a>
+                    <a class="nav-link heading-item" href="#">Blog</a> 
+                </nav>
+            </div>
+            <div class="col-6 nav justify-content-end heading-1">
+                <a href="#" class="nav-link fa fa-github heading-item" aria-hidden="true"></a>
+                <a href="#" class="nav-link fa fa-twitter heading-item" aria-hidden="true"></a>
+                <a href="#" class="nav-link fa fa-slack heading-item" aria-hidden="true"></a>
+                <a href="#"><input type="button" value="Download" class="button-1"></a>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-6"></div>
-            <div class="col-6"></div>
-        </div>
-        <div class="row header">
-            <div class="my-header col-6">
-                    <nav class="nav my-nav">
-                            <span class="logo">B</span>
-                            <a class="nav-link active" href="#">Home</a>
-                            <a class="nav-link" href="#">Documentation</a>
-                            <a class="nav-link" href="#">Example</a>
-                            <a class="nav-link" href="#">Themes</a>
-                            <a class="nav-link" href="#">Expo</a>
-                            <a class="nav-link" href="#">Blog</a> 
-                          </nav>
-                
-            </div>
             <div class="col-6"></div>
         </div>
         <div class="row">
@@ -40,81 +45,66 @@
         </div>
     </div>
 
-               <div class="header">
-                    <ul>
-                        <li class="logo">B</li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Examples</a></li>                            
-                        <li><a href="#">Themes</a></li>
-                        <li><a href="#">Expo</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
-                       
-
+            
                 
-                    <ul>
-                        <li class="link"><a href="#"  class="fa fa-github" aria-hidden="true"></a></li>
-                        <li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
-                        <li><a href="#" class="fa fa-slack" aria-hidden="true"></a></li>
-                        <li><a href="#"><input type="button" value="Download" class="button1"></li></a>
-                    </ul>
-                </div>    
-            </div>
+
+    <div class="main">
+        <div class="start">
+            <h1 class="h1">Bootstrap</h1>
+            <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>    
+            <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+            <a href="#"><input type="button" value="Get started" class="button2"></a>
+            <a href="#"><input type="button" value="Download" class="button3"></a> 
+            <p>Currently v4.3.1</p>
         </div>
-        
-        <div class="main">
-            <div class="start">
-                <h1 class="h1">Bootstrap</h1>
-                <p>Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.</p>    
-                <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-                <a href="#"><input type="button" value="Get started" class="button2"></a>
-                <a href="#"><input type="button" value="Download" class="button3"></a> 
-                <p>Currently v4.3.1</p>
-            </div>
-            <div class="box">
-                <ul class="boxes">
-                     <li>
-                        <span></span>
-                        <span></span>
-                        <span>B</span>
-                    </li>
-                </ul>
-            </div>
+
+        <div class="box">
+            <ul class="boxes">
+                 <li>
+                    <span></span>
+                    <span></span>
+                    <span>B</span>
+                </li>
+            </ul>
         </div>
+    
+
         <div class="octopus">
             <img src="../Bootstrap-Clone/octopus.jpg" alt="Octopus">
             <div class="pp">
                 <p class="pnote1">Release, deploy, operate. Octopus deploy is your DevOps happy place.</p>
                 <p class="pnote">ads via Carbon</p></div>
+            </div>
         </div>
-            <div class="container">
-                <div class="cont1">
-                    <h2 >Installation</h2>
-                        <p class="contp">Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
-                      <p class="contp">npm install bootstrap</p>  
-                      <p class="contp">gem install bootstrap -v 4.3.1</p>  
-                </div>
-                <div class="cont2">
-                    <h2>BootstrapCDN</h2>
-                        <p class="contp">When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</p>
-                       <h3>JS, Popper.js, and jQuery</h3>
-                        <h3> CSS only</h3>      
-                </div>
-                <div class="cont3">
-                    <h2>Official Themes</h2>
-                    <p class="contp">Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools. Bootstrap Themes</p>
-                </div>
-            </div>
-            <div class="footer">
-                <ul>
-                    <li class="footerul">GitHub</li>
-                    <li class="footerul">Twitter</li>
-                    <li class="footerul">Examples</li>
-                    <li class="footerul">About</li>
-                </ul>
-                <p class="p">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors. Currently v4.3.1. Code licensed MIT, docs CC BY 3.0</p>
-            </div>
+    </div>
+
+    <div class="container">
+        <div class="cont1">
+            <h2>Installation</h2>
+            <p class="contp">Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
+            <p class="contp">npm install bootstrap</p>  
+            <p class="contp">gem install bootstrap -v 4.3.1</p>  
+        </div>
+        <div class="cont2">
+            <h2>BootstrapCDN</h2>
+            <p class="contp">When you only need to include Bootstrap’s compiled CSS or JS, you can use BootstrapCDN.</p>
+            <h3>JS, Popper.js, and jQuery</h3>
+            <h3> CSS only</h3>      
+        </div>
+        <div class="cont3">
+            <h2>Official Themes</h2>
+            <p class="contp">Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools. Bootstrap Themes</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+           <li class="footerul">GitHub</li>
+            <li class="footerul">Twitter</li>
+            <li class="footerul">Examples</li>
+            <li class="footerul">About</li>
+        </ul>
+        <p class="p">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors. Currently v4.3.1. Code licensed MIT, docs CC BY 3.0</p>
     </div>
 </body>
 </html>
