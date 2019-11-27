@@ -1,4 +1,39 @@
-*{
+.heading {
+    background-color:#563d76;
+    min-height: 60px;
+}
+.heading :hover {
+    color: #fff;
+}
+.heading-item {
+    color: #cbbde2;
+}
+.logo {
+    font-size: 25px;
+    border: 1px solid #cbbde2;
+    border-radius: 10%;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+.button-1 {
+    font-weight: 550;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    color: #ffe484;
+    background: transparent;
+    border-radius: 0.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px #ffe484;
+}
+.button-1:hover {
+    background: #ffe484;
+    color: #563d76;
+}
+
+/*{
     margin: 0;
     padding: 0;
 }
@@ -7,7 +42,7 @@ body
     margin: 0;
 }
 
-/*....................................................header......................................................*/
+/*....................................................header......................................................
 .my-header 
 {
     background-color:#563d76;
@@ -50,7 +85,7 @@ li, li a:hover, li a:active, .my-nav:hover
 }
 
 
-/*..............................................main.......................................................*/
+/*..............................................main.......................................................
 .main
 {
     z-index: 2;
@@ -101,7 +136,7 @@ li, li a:hover, li a:active, .my-nav:hover
     box-shadow: -5px 5px 5px rgba(29, 29, 70, 0.3);
 }
 
-/*....................................................3boxes......................................................*/
+/*....................................................3boxes......................................................
 
 ul li span:nth-child(3)
 {
@@ -121,7 +156,7 @@ ul li span:nth-child(1)
     opacity: 1;
     background-color:#3f2666;
 }
-/*....................................................main......................................................*/
+/*....................................................main......................................................
 
 h1 
 {
@@ -267,3 +302,4 @@ div .pp
     margin-top: 70px;
     font-size: 16px;
 }
+*/
