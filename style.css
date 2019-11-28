@@ -1,13 +1,20 @@
 .heading {
-    background-color:#563d76;
+    background-color: #563d76;
     min-height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
+
 .heading :hover {
     color: #fff;
 }
+
 .heading-item {
     color: #cbbde2;
 }
+
 .logo {
     font-size: 25px;
     border: 1px solid #cbbde2;
@@ -17,6 +24,7 @@
     vertical-align: middle;
     padding: 0px 10px;
 }
+
 .button-1 {
     font-weight: 550;
     font-size: 16px;
@@ -28,61 +36,69 @@
     font-family: Arial, Helvetica, sans-serif;
     border: solid 1px #ffe484;
 }
+
 .button-1:hover {
     background: #ffe484;
     color: #563d76;
 }
+
 .main {
     margin: 80px 0px 0px 80px;
+    position: relative;
+    top: 100px;
 }
+
 .main-h1 {
     color: #7952b3;
     font-size: 70px;
 }
+
 .main-p {
     width: 500px;
     color: #6c757d;
 }
-.button-3, .button-2 
-{
+
+.button-3,
+.button-2 {
     margin: 15px 10px 20px 0px;
     height: 60px;
     width: 250px;
     font-weight: 520;
     background: transparent;
     border-radius: 0.3em;
-    font-size: 20px;  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.button-2
-{
-    color:#7952b3;
+
+.button-2 {
+    color: #7952b3;
     border: solid 1px #7952b3;
 }
-.button-2:hover 
-{
-    background:  #7952b3;
+
+.button-2:hover {
+    background: #7952b3;
     color: #fff;
 }
-.button-3
-{
-    color:#6c757d;
+
+.button-3 {
+    color: #6c757d;
     border: solid 1px #6c757d;
 }
-.button-3:hover 
-{
+
+.button-3:hover {
     background: #6c757d;
     color: #fff;
 }
-.box
-{
+
+.box {
     margin-top: 120px;
     height: 300px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
- .boxes
-{
+
+.boxes {
     display: flex;
     position: relative;
     width: 900%;
@@ -90,8 +106,8 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
-.boxes li
-{
+
+.boxes li {
     z-index: 3;
     position: relative;
     list-style: none;
@@ -103,8 +119,8 @@
     text-align: center;
     border-radius: 17%;
 }
-.boxes li span
-{
+
+.boxes li span {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -114,33 +130,33 @@
     border-radius: 17%;
     box-shadow: -5px 5px 5px rgba(29, 29, 70, 0.3);
 }
-ul li span:nth-child(3)
-{
-    transform: translate(100px,-100px);
+
+ul li span:nth-child(3) {
+    transform: translate(100px, -100px);
     opacity: 1;
-    background-color:#7344b8;
+    background-color: #7344b8;
 }
-ul li span:nth-child(2)
-{
-    transform: translate(50px,-50px);
+
+ul li span:nth-child(2) {
+    transform: translate(50px, -50px);
     opacity: 1;
-    background-color:#542b92;
+    background-color: #542b92;
 }
-ul li span:nth-child(1)
-{
-    transform: translate(0px,-0px);
+
+ul li span:nth-child(1) {
+    transform: translate(0px, -0px);
     opacity: 1;
-    background-color:#3f2666;
+    background-color: #3f2666;
 }
-ul
-{
+
+ul {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
 }
-li
-{
+
+li {
     text-decoration: none;
     display: inline-block;
     color: #cbbde2;
@@ -149,8 +165,8 @@ li
     font-size: 16px;
     color: white;
 }
-.octopus 
-{
+
+.octopus {
     background-color: rgba(211, 211, 211, 0.5);
     height: 140px;
     width: 360px;
@@ -159,22 +175,23 @@ li
     position: relative;
     bottom: 50px;
 }
-img 
-{
+
+img {
     height: 100px;
     width: auto;
     padding: 20px;
 }
-.pnote
-{
-    color:  rgba(56, 56, 56, 0.7);
+
+.pnote {
+    color: rgba(56, 56, 56, 0.7);
 }
-.pnote1
-{
+
+.pnote1 {
     color: rgb(32, 32, 32);
 }
-.pnote, .pnote1
-{
+
+.pnote,
+.pnote1 {
     width: 190px;
     display: flex;
     font-size: 14px;
@@ -183,8 +200,8 @@ img
     align-items: flex-end;
     background-color: transparent;
 }
-div .pp
-{
+
+div .pp {
     display: flex;
     flex-basis: 380px;
     flex-direction: column;
@@ -194,6 +211,7 @@ div .pp
     margin-top: 18px;
 
 }
+
 /*
 ....................................................3boxes......................................................
 
