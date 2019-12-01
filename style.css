@@ -202,9 +202,9 @@ img {
     align-items: flex-start;
 }
 
-.cont1,
-.cont2,
-.cont3 {
+.cont-1,
+.cont-2,
+.cont-3 {
     border: #fff solid 1px;
     padding: 50px;
     background-color: rgba(211, 211, 211, 0.2);
@@ -240,27 +240,4 @@ img {
     margin-left: 40px;
     line-height: 5px;
     color: rgba(56, 56, 56, 0.7);
-};
 }
-/* 
-....................................................3boxes......................................................
-
-
-.footer
-{
-    background-color: rgba(211, 211, 211, 0.2);
-    height: 150px;
-}
-.footerul
-{
-    color: black;
-    font: 16px;
-    display: inline-block;
-    position: relative;
-}
-.p
-{
-    margin-top: 70px;
-    font-size: 16px;
-}
-*/
